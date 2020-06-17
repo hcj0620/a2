@@ -1,5 +1,5 @@
 KSB045.onBtnChanged(KSB045.btnName.C, KSB045.pushType.down, function () {
-    music.ringTone(262)
+    basic.showString("c")
 })
 input.onButtonPressed(Button.A, function () {
     basic.showString("A")
